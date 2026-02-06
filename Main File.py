@@ -41,7 +41,7 @@ DIRECTION_REGISTRY = {
 }
 
 def load_data():
-    #Required to make data standard for whatever file I put in as the dataframe
+    #Required to make data standard for the data/files I put in as the dataframe
     df = pd.read_csv("USDJPY 10 Year.csv") 
 
     numeric_columns = ['Open', 'High', 'Low', 'Close/Last']
@@ -694,28 +694,24 @@ def save_visualisation(df, trades_dfs, output_path='trading_visualization.html')
             <h3>Project Highlights</h3>
             <div class="highlights-grid">
                 <div class="highlight-item">
-                    <div class="highlight-icon">📈</div>
                     <div class="highlight-text">
                         <strong>12 Trading Patterns</strong><br>
                         Advanced technical analysis algorithms
                     </div>
                 </div>
                 <div class="highlight-item">
-                    <div class="highlight-icon">⚡</div>
                     <div class="highlight-text">
                         <strong>Optimized Parameters</strong><br>
                         Grid search optimization for maximum profit
                     </div>
                 </div>
                 <div class="highlight-item">
-                    <div class="highlight-icon">🎯</div>
                     <div class="highlight-text">
                         <strong>Risk Management</strong><br>
                         Dynamic stop-loss and take-profit levels
                     </div>
                 </div>
                 <div class="highlight-item">
-                    <div class="highlight-icon">📊</div>
                     <div class="highlight-text">
                         <strong>Real-time Analysis</strong><br>
                         USDJPY 10-year historical data
